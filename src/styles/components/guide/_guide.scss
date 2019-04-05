@@ -1,0 +1,16 @@
+.guide {
+  width: 40%;
+  height: 100%;
+  background-color: #202020;
+  display: flex;
+
+  .info {
+    width: 90%;
+  }
+}
+
+.control {
+  width: 5%;
+  cursor: pointer;
+  @extend %flex-center;
+}

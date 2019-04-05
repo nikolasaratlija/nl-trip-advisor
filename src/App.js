@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import "./App.scss";
 
-import Guide from "./components/Adviser/Guide";
+import TripAdvisor from "./components/TripAdvisor/TripAdvisor";
 import Map from "./components/Map/Map";
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
         return (
             <div className={"App"}>
 
-                <Guide/>
+                <TripAdvisor/>
 
                 <Map/>
 

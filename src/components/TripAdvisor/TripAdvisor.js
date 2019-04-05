@@ -3,7 +3,7 @@ import "./styles/_Guide.scss"
 
 import Info from "./Info";
 
-class Guide extends Component {
+class TripAdvisor extends Component {
     constructor(props) {
         super(props);
 
@@ -11,7 +11,7 @@ class Guide extends Component {
 
     render() {
         return (
-            <div id={"Guide"} className={"Guide"}>
+            <div id={"TripAdvisor"} className={"TripAdvisor"}>
                 <div className="control left" id="control-left">
                     <i className="fas fa-caret-left fa-2x white"></i>
                 </div>
@@ -26,4 +26,4 @@ class Guide extends Component {
     }
 }
 
-export default Guide;
+export default TripAdvisor;

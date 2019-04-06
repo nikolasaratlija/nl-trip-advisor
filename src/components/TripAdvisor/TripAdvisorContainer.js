@@ -4,7 +4,7 @@ import TripAdvisorComponent from "./TripAdvisorComponent";
 
 class TripAdvisorContainer extends Component {
     state = {
-        file: "intro.html",
+        file: "init-dialog",
         content: "",
     };
 

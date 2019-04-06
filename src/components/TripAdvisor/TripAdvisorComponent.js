@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
-import "./styles/TripAdvisor.scss"
+import "./styles/_TripAdvisor.scss";
 
 import Info from "./Info";
 
-class TripAdvisor extends Component {
+class TripAdvisorComponent extends Component {
     constructor(props) {
         super(props);
-
     }
 
     render() {
@@ -26,4 +25,4 @@ class TripAdvisor extends Component {
     }
 }
 
-export default TripAdvisor;
+export default TripAdvisorComponent;

@@ -4,12 +4,13 @@ import "./styles/_Info.scss";
 class Info extends Component {
     constructor(props) {
         super(props);
+
     }
 
     render() {
         return (
             <div className={"Info"}>
-                Text goes here
+                stuff goes here
             </div>
         );
     }

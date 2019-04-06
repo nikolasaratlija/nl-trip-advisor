@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import "./styles/_TripAdvisor.scss";
 
-import Info from "./Info";
+import Info from "./Info.jsx";
 
 class TripAdvisorComponent extends Component {
     constructor(props) {

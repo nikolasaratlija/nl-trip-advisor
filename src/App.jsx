@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import "./App.scss";
 
-import TripAdvisorContainer from "./components/TripAdvisor/TripAdvisorContainer";
-import Map from "./components/Map/Map";
+import TripAdvisorContainer from "./components/TripAdvisor/TripAdvisorComponent.jsx";
+import Map from "./components/Map/Map.jsx";
 
 class App extends Component {
     render() {

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import "./App.scss";
 
-import TripAdvisorContainer from "./components/TripAdvisor/TripAdvisorComponent.jsx";
+import TripAdvisorContainer from "./components/TripAdvisor/TripAdvisorContainer.jsx";
 import Map from "./components/Map/Map.jsx";
 
 class App extends Component {
@@ -10,7 +10,6 @@ class App extends Component {
             <div className={"App"}>
 
                 <TripAdvisorContainer/>
-
                 <Map/>
 
             </div>

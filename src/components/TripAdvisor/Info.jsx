@@ -1,19 +1,12 @@
-import React, {Component} from 'react';
+import React from 'react';
 import "./styles/_Info.scss";
 
-class Info extends Component {
-    constructor(props) {
-        super(props);
-
-    }
-
-    render() {
-        return (
-            <div className={"Info"}>
-                stuff goes here
-            </div>
-        );
-    }
-}
+const Info = (props) => {
+    return (
+        <div className={"Info"}>
+            {props.content}
+        </div>
+    )
+};
 
 export default Info;

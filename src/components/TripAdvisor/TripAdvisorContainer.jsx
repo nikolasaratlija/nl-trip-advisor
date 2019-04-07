@@ -6,8 +6,9 @@ import DialogueFactory from "./DialogueFactory.jsx";
 class TripAdvisorContainer extends Component {
     state = {
         content: "",
-        poi: [],
-        poiIndex: 0
+        poi: [], // poi stands for point-of-interest
+        poiIndex: 0,
+        isAtStartOfPoiArray: true
     };
 
     componentDidMount() {
@@ -15,14 +16,42 @@ class TripAdvisorContainer extends Component {
             content: DialogueFactory.build("InitDialog"),
             poi: require("./assets/points-of-interest.json")
         });
+
+
     }
 
-    handleLeftArrowClick() {
-        console.log("left arrow clicked")
-    }
+    handleLeftArrowClick = () => {
+        if (this.state.poiIndex === 0)
+            return false;
 
-    handleRightArrowClick() {
-        console.log("right arrow clicked")
+        this.setState(prevState => {
+            return {poiIndex: prevState.poiIndex - 1};
+        }, () => {
+            this.handlePoiData(this.state.poi[this.state.poiIndex]);
+        });
+    };
+
+    handleRightArrowClick = () => {
+        if (this.state.poiIndex === this.state.poi.length - 1)
+            return false;
+
+        if (this.state.isAtStartOfPoiArray) {
+            this.setState({isAtStartOfPoiArray: false});
+            this.handlePoiData(this.state.poi[0]);
+            return;
+        }
+
+        this.setState(prevState => {
+            return {poiIndex: prevState.poiIndex + 1};
+        }, () => {
+            this.handlePoiData(this.state.poi[this.state.poiIndex]);
+        });
+    };
+
+    handlePoiData(poi) {
+        this.setState({
+            content: DialogueFactory.build(poi.object)
+        });
     }
 
     render() {

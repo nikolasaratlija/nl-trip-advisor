@@ -6,9 +6,9 @@ import DialogueFactory from "./DialogueFactory.jsx";
 class TripAdvisorContainer extends Component {
     state = {
         content: "",
-        poi: [], // poi stands for point-of-interest
+        poi: [], // poi stands for points-of-interest
         poiIndex: 0,
-        isAtStartOfPoiArray: true
+        userHasStarted: true
     };
 
     componentDidMount() {
@@ -16,8 +16,6 @@ class TripAdvisorContainer extends Component {
             content: DialogueFactory.build("InitDialog"),
             poi: require("./assets/points-of-interest.json")
         });
-
-
     }
 
     handleLeftArrowClick = () => {
@@ -35,8 +33,8 @@ class TripAdvisorContainer extends Component {
         if (this.state.poiIndex === this.state.poi.length - 1)
             return false;
 
-        if (this.state.isAtStartOfPoiArray) {
-            this.setState({isAtStartOfPoiArray: false});
+        if (this.state.userHasStarted) {
+            this.setState({userHasStarted: false});
             this.handlePoiData(this.state.poi[0]);
             return;
         }

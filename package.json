@@ -23,7 +23,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "devDependencies": {
-    "html-loader": "^0.5.5"
-  }
+  "devDependencies": {}
 }

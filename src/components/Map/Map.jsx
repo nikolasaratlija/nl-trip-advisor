@@ -1,13 +1,9 @@
 import React, {Component} from 'react';
-import "./styles/_Map.scss"
+import "./styles/_Map.scss";
 
 class Map extends Component {
     render() {
-        return (
-            <div id={"Map"} className={"Map"}>
-
-            </div>
-        );
+        return <div id={"Map"} className={"Map"}/>;
     }
 }
 

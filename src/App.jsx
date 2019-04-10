@@ -5,11 +5,23 @@ import TripAdvisorContainer from "./components/TripAdvisor/TripAdvisorContainer.
 import Map from "./components/Map/Map.jsx";
 
 class App extends Component {
+    state = {
+        mapState: {
+            lat: 0,
+            lng: 0,
+            zoom: 10,
+        }
+    };
+
+    handleArrowClick = () => {
+        // TODO complete state and click handler of Map component
+    };
+
     render() {
         return (
             <div className={"App"}>
 
-                <TripAdvisorContainer/>
+                <TripAdvisorContainer test={this.handleArrowClick}/>
                 <Map/>
 
             </div>

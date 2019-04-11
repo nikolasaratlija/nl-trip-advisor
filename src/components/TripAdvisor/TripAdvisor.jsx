@@ -14,13 +14,16 @@ class TripAdvisor extends Component {
     render() {
         return (
             <div className={"TripAdvisor"}>
+                <div className={"header"}>
+                    Netherlands Trip Advisor
+                </div>
                 {this.state.component ||
                 <nav>
                     <li onClick={() => this.buildComponent("PoiAdvisor")}>
-                        <a href={"# "}>Points of interest</a>
+                        <a href={"javascript:void(0)"}>Points of interest</a>
                     </li>
                     <li onClick={() => this.buildComponent("EventsAdvisor")}>
-                        <a href={"# "}>Events</a>
+                        <a href={"javascript:void(0)"}>Events</a>
                     </li>
                 </nav>}
             </div>

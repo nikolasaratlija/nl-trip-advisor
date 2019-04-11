@@ -1,13 +1,13 @@
 {
-  "main.css": "/nl-trip-advisor-react/static/css/main.d22db49c.chunk.css",
-  "main.js": "/nl-trip-advisor-react/static/js/main.31bba37a.chunk.js",
-  "main.js.map": "/nl-trip-advisor-react/static/js/main.31bba37a.chunk.js.map",
+  "main.css": "/nl-trip-advisor-react/static/css/main.f2572cbf.chunk.css",
+  "main.js": "/nl-trip-advisor-react/static/js/main.fd433a07.chunk.js",
+  "main.js.map": "/nl-trip-advisor-react/static/js/main.fd433a07.chunk.js.map",
   "runtime~main.js": "/nl-trip-advisor-react/static/js/runtime~main.09a7ef84.js",
   "runtime~main.js.map": "/nl-trip-advisor-react/static/js/runtime~main.09a7ef84.js.map",
   "static/js/2.da21de22.chunk.js": "/nl-trip-advisor-react/static/js/2.da21de22.chunk.js",
   "static/js/2.da21de22.chunk.js.map": "/nl-trip-advisor-react/static/js/2.da21de22.chunk.js.map",
   "index.html": "/nl-trip-advisor-react/index.html",
-  "precache-manifest.d80f9d34b059a82bade1a0c0712106b9.js": "/nl-trip-advisor-react/precache-manifest.d80f9d34b059a82bade1a0c0712106b9.js",
+  "precache-manifest.d73b72c4fad7c82a416a5d79608ef1f6.js": "/nl-trip-advisor-react/precache-manifest.d73b72c4fad7c82a416a5d79608ef1f6.js",
   "service-worker.js": "/nl-trip-advisor-react/service-worker.js",
-  "static/css/main.d22db49c.chunk.css.map": "/nl-trip-advisor-react/static/css/main.d22db49c.chunk.css.map"
+  "static/css/main.f2572cbf.chunk.css.map": "/nl-trip-advisor-react/static/css/main.f2572cbf.chunk.css.map"
 }

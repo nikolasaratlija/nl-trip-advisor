@@ -47,9 +47,8 @@ class TripAdvisorContainer extends Component {
     };
 
     handlePoiData(poi) {
-        this.setState({
-            content: DialogueFactory.build(poi.object)
-        });
+        this.setState({content: DialogueFactory.build(poi.object)});
+        this.props.handleArrowOnClick(poi);
     }
 
     render() {

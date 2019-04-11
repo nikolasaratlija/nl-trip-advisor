@@ -6,27 +6,31 @@ import rotterdamData from "./assets/data/rotterdamData";
 
 class App extends Component {
     state = {
-        mapState: {
-            lat: rotterdamData.lat,
-            lng: rotterdamData.lng,
-            zoom: rotterdamData.defaultZoom,
-        }
+        lat: rotterdamData.lat,
+        lng: rotterdamData.lng,
+        zoom: rotterdamData.defaultZoom,
     };
 
-    handleArrowClick = () => {
-        // TODO complete state and click handler of Map component
+    handleArrowOnClick = data => {
+        this.setState({
+            lat: data.lat,
+            lng: data.lng,
+            zoom: data.zoom,
+        })
     };
 
     render() {
         return (
             <div className={"App"}>
 
-                <TripAdvisorContainer/>
+                <TripAdvisorContainer
+                    handleArrowOnClick={(data) => this.handleArrowOnClick(data)}
+                />
 
                 <Map
-                    lat={this.state.mapState.lat}
-                    lng={this.state.mapState.lng}
-                    zoom={this.state.mapState.zoom}
+                    lat={this.state.lat}
+                    lng={this.state.lng}
+                    zoom={this.state.zoom}
                 />
 
             </div>

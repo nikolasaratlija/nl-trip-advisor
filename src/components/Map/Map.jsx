@@ -30,8 +30,8 @@ const Map = compose(
     withGoogleMap
 )(props => (
     <GoogleMap
-        defaultZoom={props.zoom}
-        defaultCenter={{lat: props.lat, lng: props.lng}}
+        zoom={props.zoom}
+        center={{lat: props.lat, lng: props.lng}}
         defaultOptions={defaultMapOptions}
     >
         <KmlLayer url={"https://www.dropbox.com/s/j69qh1g9wbkutg5/rotterdam.kml?dl=1"}/>

@@ -14,7 +14,7 @@ class TripAdvisorContainer extends Component {
     componentDidMount() {
         this.setState({
             content: DialogueFactory.build("InitDialog"),
-            poi: require("./assets/points-of-interest.json")
+            poi: require("../../assets/data/points-of-interest.json")
         });
     };
 

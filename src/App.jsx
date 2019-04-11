@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 import "./App.scss";
-
 import TripAdvisorContainer from "./components/TripAdvisor/TripAdvisorContainer.jsx";
 import Map from "./components/Map/Map.jsx";
+import rotterdamData from "./assets/data/rotterdamData";
 
 class App extends Component {
     state = {
         mapState: {
-            lat: 0,
-            lng: 0,
-            zoom: 10,
+            lat: rotterdamData.lat,
+            lng: rotterdamData.lng,
+            zoom: rotterdamData.defaultZoom,
         }
     };
 
@@ -21,8 +21,13 @@ class App extends Component {
         return (
             <div className={"App"}>
 
-                <TripAdvisorContainer test={this.handleArrowClick}/>
-                <Map/>
+                <TripAdvisorContainer/>
+
+                <Map
+                    lat={this.state.mapState.lat}
+                    lng={this.state.mapState.lng}
+                    zoom={this.state.mapState.zoom}
+                />
 
             </div>
         );

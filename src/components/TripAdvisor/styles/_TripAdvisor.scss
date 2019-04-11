@@ -2,13 +2,14 @@
   width: 40%;
   height: 100%;
   background-color: #202020;
-  display: flex;
-}
 
-.control {
-  width: 5%;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  nav {
+    margin: 10% 10%;
+
+    li {
+      list-style-type: none;
+      margin: 2vh 0;
+      font-size: 1.618em;
+    }
+  }
 }

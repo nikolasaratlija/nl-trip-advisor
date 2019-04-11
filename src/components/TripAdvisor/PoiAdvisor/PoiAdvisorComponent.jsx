@@ -1,11 +1,12 @@
 import React from 'react';
-import "./styles/_TripAdvisor.scss";
+import "../styles/_TripAdvisor.scss";
+import "./styles/_PoiAdvisor.scss";
 
 import Info from "./Info.jsx";
 
-const TripAdvisorComponent = (props) => {
+const PoiAdvisorComponent = (props) => {
     return (
-        <div id={"TripAdvisor"} className={"TripAdvisor"}>
+        <div className={"PoiAdvisor"}>
             <div
                 onClick={props.onLeftArrowClick}
                 className="control left"
@@ -27,4 +28,4 @@ const TripAdvisorComponent = (props) => {
     );
 };
 
-export default TripAdvisorComponent;
+export default PoiAdvisorComponent;

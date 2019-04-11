@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 
-import TripAdvisorComponent from "./TripAdvisorComponent.jsx";
+import PoiAdvisorComponent from "./PoiAdvisorComponent.jsx";
 import DialogueFactory from "./DialogueFactory.jsx";
 
-class TripAdvisorContainer extends Component {
+class PoiAdvisorContainer extends Component {
     state = {
         content: "",
         poi: [], // poi stands for points-of-interest
@@ -14,7 +14,7 @@ class TripAdvisorContainer extends Component {
     componentDidMount() {
         this.setState({
             content: DialogueFactory.build("InitDialog"),
-            poi: require("../../assets/data/points-of-interest.json")
+            poi: require("../assets/data/points-of-interest.json")
         });
     };
 
@@ -53,7 +53,7 @@ class TripAdvisorContainer extends Component {
 
     render() {
         return (
-            <TripAdvisorComponent
+            <PoiAdvisorComponent
                 onLeftArrowClick={this.handleLeftArrowClick}
                 onRightArrowClick={this.handleRightArrowClick}
                 content={this.state.content}
@@ -62,4 +62,4 @@ class TripAdvisorContainer extends Component {
     }
 }
 
-export default TripAdvisorContainer;
+export default PoiAdvisorContainer;

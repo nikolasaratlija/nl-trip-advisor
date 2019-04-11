@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import "./App.scss";
-import TripAdvisorContainer from "./components/TripAdvisor/TripAdvisorContainer.jsx";
+import TripAdvisor from "./components/TripAdvisor/TripAdvisor.jsx";
 import Map from "./components/Map/Map.jsx";
-import rotterdamData from "./assets/data/rotterdamData";
+import rotterdamData from "./components/TripAdvisor/assets/data/rotterdamData";
 
 class App extends Component {
     state = {
@@ -23,7 +23,7 @@ class App extends Component {
         return (
             <div className={"App"}>
 
-                <TripAdvisorContainer
+                <TripAdvisor
                     handleArrowOnClick={(data) => this.handleArrowOnClick(data)}
                 />
 

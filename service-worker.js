@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/nl-trip-advisor-react/precache-manifest.d73b72c4fad7c82a416a5d79608ef1f6.js"
+  "/nl-trip-advisor-react/precache-manifest.dc85a851926723ed93166ad3ee605005.js"
 );
 
 workbox.clientsClaim();

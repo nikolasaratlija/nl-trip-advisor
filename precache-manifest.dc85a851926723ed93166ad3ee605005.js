@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/nl-trip-advisor-react/static/js/runtime~main.09a7ef84.js"
   },
   {
-    "revision": "a181bbfd939b8a198f10",
-    "url": "/nl-trip-advisor-react/static/js/main.fd433a07.chunk.js"
+    "revision": "de5c0f256723db8c55c1",
+    "url": "/nl-trip-advisor-react/static/js/main.6f98ca91.chunk.js"
   },
   {
     "revision": "f51d143bbccedb5ea87d",
     "url": "/nl-trip-advisor-react/static/js/2.da21de22.chunk.js"
   },
   {
-    "revision": "a181bbfd939b8a198f10",
-    "url": "/nl-trip-advisor-react/static/css/main.f2572cbf.chunk.css"
+    "revision": "de5c0f256723db8c55c1",
+    "url": "/nl-trip-advisor-react/static/css/main.2ed1b8ec.chunk.css"
   },
   {
-    "revision": "ffa4a23f4edbadba9961e2e3b4987cbc",
+    "revision": "b2ea42bdbda09e2bddaa59bafa2ef047",
     "url": "/nl-trip-advisor-react/index.html"
   }
 ];

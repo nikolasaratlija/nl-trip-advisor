@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import "./styles/_TripAdvisor.scss";
 import AdvisorFactory from "./AdvisorFactory.jsx";
+import Header from "./Header";
+import Navigation from "./Navigation";
+import Controls from "./Controls";
 
 class TripAdvisor extends Component {
     state = {
@@ -8,26 +11,29 @@ class TripAdvisor extends Component {
     };
 
     buildComponent(component) {
-        this.setState({component: AdvisorFactory.build(component, this.props)})
+        this.setState({component: AdvisorFactory.build(component, this.props)});
     }
 
+    backToNav = () => {
+        this.setState({component: null});
+    };
+
     render() {
+        const component =
+            this.state.component ||
+            <Navigation handleClick={(component) => this.buildComponent(component)}/>;
+
         return (
             <div className={"TripAdvisor"}>
-                <div className={"header"}>
-                    Netherlands Trip Advisor
-                </div>
-                {this.state.component ||
-                <nav>
-                    <li onClick={() => this.buildComponent("PoiAdvisor")}>
-                        <a href={"javascript:void(0)"}>Points of interest</a>
-                    </li>
-                    <li onClick={() => this.buildComponent("EventsAdvisor")}>
-                        <a href={"javascript:void(0)"}>Events</a>
-                    </li>
-                </nav>}
+
+                <Header/>
+
+                {component === this.state.component && <Controls handleClick={this.backToNav}/>}
+
+                {component}
+
             </div>
-        )
+        );
     }
 }
 

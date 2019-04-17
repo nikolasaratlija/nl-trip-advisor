@@ -12,7 +12,7 @@ const PoiAdvisorComponent = (props) => {
                 className="control left"
                 id="control-left"
             >
-                <i className="fas fa-caret-left fa-2x white"/>
+                &larr;
             </div>
 
             <Info content={props.content}/>
@@ -22,7 +22,7 @@ const PoiAdvisorComponent = (props) => {
                 className="control right"
                 id="control-right"
             >
-                <i className="fas fa-caret-right fa-2x white"/>
+                &rarr;
             </div>
         </div>
     );

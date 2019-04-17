@@ -21,7 +21,7 @@ const defaultMapOptions = {
 const Map = compose(
     withProps({
         googleMapURL:
-            "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcTDpJ_aHuIUqbmm8iIYGmD0PPqOegDvo&v=3.exp&libraries=geometry,drawing,places",
+            "https://maps.googleapis.com/maps/api/js?key=[API-KEY]&v=3.exp&libraries=geometry,drawing,places",
         loadingElement: <div style={{height: '100%'}}/>,
         containerElement: <div className={"Map"}/>,
         mapElement: <div style={{height: '100%'}}/>

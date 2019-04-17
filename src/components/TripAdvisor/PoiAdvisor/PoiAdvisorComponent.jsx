@@ -1,5 +1,4 @@
 import React from 'react';
-import "../styles/_TripAdvisor.scss";
 import "./styles/_PoiAdvisor.scss";
 
 import Info from "./Info.jsx";

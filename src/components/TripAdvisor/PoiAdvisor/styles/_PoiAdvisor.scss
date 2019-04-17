@@ -1,12 +1,13 @@
 .PoiAdvisor {
   display: flex;
   flex-grow: 1;
-}
+  height: 100%;
 
-.control {
-  width: 5%;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .control {
+    width: 5%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

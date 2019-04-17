@@ -7,28 +7,37 @@ import Controls from "./Controls";
 
 class TripAdvisor extends Component {
     state = {
-        component: null
+        advisor: null,
     };
 
-    buildComponent(component) {
-        this.setState({component: AdvisorFactory.build(component, this.props)});
+    mountAdvisor(component) {
+        this.setState({advisor: AdvisorFactory.build(component, this.props)});
     }
 
     backToNav = () => {
-        this.setState({component: null});
+        this.setState({advisor: null});
     };
 
     render() {
+        /*
+        Initially this.state.advisor is null. So const component evaluates to the Navigation component.
+        When the user clicks on one of the options on the Nav, the value of this.state.advisor gets changed.
+        Because state has been changed, the TripAdvisor component gets rerendered.
+        This time this.state.advisor is not null, but a React component which gets rendered instead of Navigation.
+        */
         const component =
-            this.state.component ||
-            <Navigation handleClick={(component) => this.buildComponent(component)}/>;
+            this.state.advisor || <Navigation handleClick={(component) => this.mountAdvisor(component)}/>;
 
         return (
             <div className={"TripAdvisor"}>
 
                 <Header/>
 
-                {component === this.state.component && <Controls handleClick={this.backToNav}/>}
+                {/* When component === this.state.advisor evaluates to true,
+                it means that a component has been rendered that is NOT Navigation.
+                Thus the Controls component will be rendered.
+                Could be read as: if component === an Advisor component, then render Controls. */}
+                {component === this.state.advisor && <Controls handleClick={this.backToNav}/>}
 
                 {component}
 

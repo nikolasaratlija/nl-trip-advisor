@@ -9,17 +9,17 @@ const PoiAdvisorComponent = (props) => {
             <div
                 onClick={props.onLeftArrowClick}
                 className="control left"
-                id="control-left"
             >
                 &larr;
             </div>
 
-            <Info content={props.content}/>
+            <Info>
+                {props.content}
+            </Info>
 
             <div
                 onClick={props.onRightArrowClick}
                 className="control right"
-                id="control-right"
             >
                 &rarr;
             </div>

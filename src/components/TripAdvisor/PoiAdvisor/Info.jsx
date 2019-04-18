@@ -4,7 +4,7 @@ import "./styles/_Info.scss";
 const Info = (props) => {
     return (
         <div className={"Info"}>
-            {props.content}
+            {props.children}
         </div>
     )
 };

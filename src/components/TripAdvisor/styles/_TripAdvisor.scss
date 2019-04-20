@@ -11,8 +11,20 @@
     padding: 1.5% 12.5%;
     font-size: 1.618em;
 
-    a {
-      color: black;
+    .link-button {
+      font-size: 0.9em;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      text-decoration: underline;
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+
+    .link-button:hover,
+    .link-button:focus {
+      text-decoration: none;
     }
   }
 }

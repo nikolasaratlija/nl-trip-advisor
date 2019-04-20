@@ -1,14 +1,16 @@
 import React from 'react';
 
 import {storiesOf} from '@storybook/react';
-import {action} from '@storybook/addon-actions';
-import {linkTo} from '@storybook/addon-links';
 
-import PoiAdvisorContainer from "../components/TripAdvisor/PoiAdvisor/PoiAdvisorContainer.jsx";
-import App from "../App";
+import rotterdamData from "../components/TripAdvisor/assets/data/rotterdamData";
+import Map from "../components/Map/Map";
 
-storiesOf('App', module)
-    .add('Default', () => <App/>);
-
-storiesOf('PoiAdvisor', module)
-    .add('Default', () => <PoiAdvisorContainer/>);
+storiesOf('Map', module)
+    .add(
+        'Default',
+        () =>
+            <Map
+                center={{lat: rotterdamData.lat, lng: rotterdamData.lng}}
+                zoom={rotterdamData.defaultZoom}
+            />
+    );

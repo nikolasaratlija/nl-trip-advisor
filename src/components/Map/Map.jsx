@@ -1,7 +1,6 @@
-import React from 'react';
-import {compose, withProps} from "recompose";
-import "./styles/_Map.scss";
-import {withScriptjs, withGoogleMap, GoogleMap, KmlLayer} from "react-google-maps";
+import React, {Component} from 'react';
+import './styles/_Map.scss';
+import scriptLoader from 'react-async-script-loader';
 
 const styles = [
     {
@@ -13,29 +12,29 @@ const styles = [
     }
 ];
 
-const defaultMapOptions = {
-    disableDefaultUI: true,
-    styles
-};
+class Map extends Component {
+    componentWillReceiveProps({isScriptLoadSucceed}) {
+        if (isScriptLoadSucceed) {
+            window.map = new window.google.maps.Map(this.map, {
+                zoom: this.props.zoom,
+                center: this.props.center,
 
-const Map = compose(
-    withProps({
-        googleMapURL:
-            `https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_GOOGLE_API}&v=3.exp&libraries=geometry,drawing,places`,
-        loadingElement: <div style={{height: '100%'}}/>,
-        containerElement: <div className={"Map"}/>,
-        mapElement: <div style={{height: '100%'}}/>
-    }),
-    withScriptjs,
-    withGoogleMap
-)(props => (
-    <GoogleMap
-        zoom={props.zoom}
-        center={{lat: props.lat, lng: props.lng}}
-        defaultOptions={defaultMapOptions}
-    >
-        <KmlLayer url={"https://www.dropbox.com/s/j69qh1g9wbkutg5/rotterdam.kml?dl=1"}/>
-    </GoogleMap>
-));
+                disableDefaultUI: true,
+                styles: styles,
+            });
+        }
+    }
 
-export default Map;
+    render() {
+        return (
+            <div
+                ref={map => this.map = map}
+                className={"Map"}
+            />
+        );
+    }
+}
+
+export default scriptLoader(
+    [`https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_GOOGLE_API}`]
+)(Map);

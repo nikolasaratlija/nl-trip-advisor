@@ -16,7 +16,7 @@ class App extends Component {
             lat: data.lat,
             lng: data.lng,
             zoom: data.zoom,
-        })
+        });
     };
 
     render() {
@@ -28,8 +28,7 @@ class App extends Component {
                 />
 
                 <Map
-                    lat={this.state.lat}
-                    lng={this.state.lng}
+                    center={{lat: this.state.lat, lng: this.state.lng}}
                     zoom={this.state.zoom}
                 />
 

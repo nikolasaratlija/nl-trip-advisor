@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import "./App.scss";
-import TripAdvisor from "./components/TripAdvisor/TripAdvisor.jsx";
+import Sidebar from "./components/TripAdvisor/Sidebar.jsx";
 import Map from "./components/Map/Map.jsx";
 import rotterdamData from "./components/TripAdvisor/assets/data/rotterdamData";
 
@@ -11,7 +11,7 @@ class App extends Component {
         zoom: rotterdamData.defaultZoom,
     };
 
-    handleArrowOnClick = data => {
+    setMapProps = data => {
         this.setState({
             lat: data.lat,
             lng: data.lng,
@@ -23,8 +23,8 @@ class App extends Component {
         return (
             <div className={"App"}>
 
-                <TripAdvisor
-                    handleArrowOnClick={(data) => this.handleArrowOnClick(data)}
+                <Sidebar
+                    handleArrowOnClick={(data) => this.setMapProps(data)}
                 />
 
                 <Map

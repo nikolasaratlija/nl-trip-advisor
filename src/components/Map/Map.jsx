@@ -11,7 +11,7 @@ const styles = [
         ]
     }
 ];
-
+// TODO fix map component
 class Map extends Component {
     componentWillReceiveProps({isScriptLoadSucceed}) {
         if (isScriptLoadSucceed) {

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
-import PoiAdvisorComponent from "./PoiAdvisorComponent.jsx";
-import DialogueFactory from "./DialogueFactory.jsx";
+// import PoiAdvisorComponent from "../components/TripAdvisor/PoiAdvisor/PoiAdvisorComponent.jsx";
+// import DialogueFactory from "../components/TripAdvisor/PoiAdvisor/DialogueFactory.jsx";
 
 class PoiAdvisorContainer extends Component {
     state = {
@@ -14,7 +14,7 @@ class PoiAdvisorContainer extends Component {
     componentDidMount() {
         this.setState({
             content: DialogueFactory.build("InitDialog"),
-            poi: require("../assets/data/points-of-interest.json")
+            poi: require("../assets/points-of-interest.json")
         });
     };
 
@@ -53,11 +53,14 @@ class PoiAdvisorContainer extends Component {
 
     render() {
         return (
-            <PoiAdvisorComponent
-                onLeftArrowClick={this.handleLeftArrowClick}
-                onRightArrowClick={this.handleRightArrowClick}
-                content={this.state.content}
-            />
+            <div>
+
+            </div>
+            // <PoiAdvisorComponent
+            //     onLeftArrowClick={this.handleLeftArrowClick}
+            //     onRightArrowClick={this.handleRightArrowClick}
+            //     content={this.state.content}
+            // />
         );
     }
 }

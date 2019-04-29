@@ -1,16 +1,17 @@
 import React from 'react';
 
 import {storiesOf} from '@storybook/react';
+import '../App.scss';
 
-import rotterdamData from "../components/TripAdvisor/assets/data/rotterdamData";
-import Map from "../components/Map/Map";
+import Start from '../components/Start/Start';
+import Header from "../components/Header/Header";
+import Navigation from "../components/Header/Navigation/Navigation";
 
-storiesOf('Map', module)
-    .add(
-        'Default',
-        () =>
-            <Map
-                center={{lat: rotterdamData.lat, lng: rotterdamData.lng}}
-                zoom={rotterdamData.defaultZoom}
-            />
-    );
+storiesOf('Start', module)
+    .add('Default', () => <Start/>);
+
+storiesOf('Header', module)
+    .add('Default', () => <Header/>);
+
+storiesOf('Navigation', module)
+    .add('Default', () => <Navigation/>);

@@ -1,0 +1,38 @@
+$padding: 2vh;
+
+.PoiCard {
+  background-color: #FFF8F0;
+  width: 30vh;
+  height: 38vh;
+  border-radius: 16px;
+  padding: $padding;
+  color: #151515;
+  position: relative;
+
+  h4 {
+    font-family: Lato, sans-serif;
+    margin: 0 0 1rem 0;
+    font-size: 2.75vh;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  a {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: $padding;
+    color: white;
+    font-size: 1.5vh;
+    font-family: Lato, sans-serif;
+    width: 50%;
+    height: 9%;
+    background-color: #EF7B45;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

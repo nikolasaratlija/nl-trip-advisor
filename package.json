@@ -1,17 +1,15 @@
 {
   "name": "netherlands-trip-advisor",
-  "homepage": "http://nikolasratlija.github.io/nl-trip-advisor-react",
+  "homepage": "http://nikolasaratlija.github.io/nl-trip-advisor-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.16.4",
     "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",
     "react": "^16.8.6",
-    "react-async-script-loader": "^0.3.0",
     "react-dom": "^16.8.6",
-    "react-google-maps": "^9.4.5",
-    "react-scripts": "2.1.8",
-    "recompose": "^0.30.0"
+    "react-scripts": "3.0.0"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -34,7 +32,7 @@
   ],
   "devDependencies": {
     "@storybook/react": "^5.0.9",
-    "@storybook/addon-actions": "^5.0.9",
+    "@storybook/addon-actions": "^5.0.11",
     "@storybook/addon-links": "^5.0.9"
   }
 }

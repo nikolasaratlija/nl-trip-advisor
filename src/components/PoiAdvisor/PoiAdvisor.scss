@@ -1,9 +1,18 @@
 .PoiAdvisor {
-  height: 100vh;
-
   position: relative;
   top: -7vh;
   border-radius: 40px 40px 0 0;
-
   background-color: #B22222;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 2vh;
+  grid-template-columns: auto auto auto auto auto;
+
+  h3 {
+    grid-column: 1 / 6;
+    justify-self: start;
+    align-self: start;
+  }
 }

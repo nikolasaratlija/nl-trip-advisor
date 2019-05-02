@@ -1,14 +1,16 @@
 {
-  "main.css": "/nl-trip-advisor-react/static/css/main.245d878b.chunk.css",
-  "main.js": "/nl-trip-advisor-react/static/js/main.7e542cbd.chunk.js",
-  "main.js.map": "/nl-trip-advisor-react/static/js/main.7e542cbd.chunk.js.map",
-  "runtime~main.js": "/nl-trip-advisor-react/static/js/runtime~main.09a7ef84.js",
-  "runtime~main.js.map": "/nl-trip-advisor-react/static/js/runtime~main.09a7ef84.js.map",
-  "static/js/2.65aa1cca.chunk.js": "/nl-trip-advisor-react/static/js/2.65aa1cca.chunk.js",
-  "static/js/2.65aa1cca.chunk.js.map": "/nl-trip-advisor-react/static/js/2.65aa1cca.chunk.js.map",
-  "index.html": "/nl-trip-advisor-react/index.html",
-  "precache-manifest.f86a437f0339170ed4e76c71db18e92f.js": "/nl-trip-advisor-react/precache-manifest.f86a437f0339170ed4e76c71db18e92f.js",
-  "service-worker.js": "/nl-trip-advisor-react/service-worker.js",
-  "static/css/main.245d878b.chunk.css.map": "/nl-trip-advisor-react/static/css/main.245d878b.chunk.css.map",
-  "static/media/amsterdam-architecture-building-208733.jpg": "/nl-trip-advisor-react/static/media/amsterdam-architecture-building-208733.37d6b092.jpg"
+  "files": {
+    "main.css": "/nl-trip-advisor-react/static/css/main.f9e4cb2c.chunk.css",
+    "main.js": "/nl-trip-advisor-react/static/js/main.b1c27d7c.chunk.js",
+    "main.js.map": "/nl-trip-advisor-react/static/js/main.b1c27d7c.chunk.js.map",
+    "runtime~main.js": "/nl-trip-advisor-react/static/js/runtime~main.09a7ef84.js",
+    "runtime~main.js.map": "/nl-trip-advisor-react/static/js/runtime~main.09a7ef84.js.map",
+    "static/js/2.d6a534e5.chunk.js": "/nl-trip-advisor-react/static/js/2.d6a534e5.chunk.js",
+    "static/js/2.d6a534e5.chunk.js.map": "/nl-trip-advisor-react/static/js/2.d6a534e5.chunk.js.map",
+    "index.html": "/nl-trip-advisor-react/index.html",
+    "precache-manifest.545f6cd6f2a8b121a269fde4a39665b5.js": "/nl-trip-advisor-react/precache-manifest.545f6cd6f2a8b121a269fde4a39665b5.js",
+    "service-worker.js": "/nl-trip-advisor-react/service-worker.js",
+    "static/css/main.f9e4cb2c.chunk.css.map": "/nl-trip-advisor-react/static/css/main.f9e4cb2c.chunk.css.map",
+    "static/media/amsterdam-architecture-building-208733.jpg": "/nl-trip-advisor-react/static/media/amsterdam-architecture-building-208733.37d6b092.jpg"
+  }
 }

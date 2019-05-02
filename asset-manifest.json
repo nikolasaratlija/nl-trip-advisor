@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/nl-trip-advisor-react/static/css/main.f9e4cb2c.chunk.css",
-    "main.js": "/nl-trip-advisor-react/static/js/main.b1c27d7c.chunk.js",
-    "main.js.map": "/nl-trip-advisor-react/static/js/main.b1c27d7c.chunk.js.map",
+    "main.css": "/nl-trip-advisor-react/static/css/main.2bd7b428.chunk.css",
+    "main.js": "/nl-trip-advisor-react/static/js/main.3b6614ee.chunk.js",
+    "main.js.map": "/nl-trip-advisor-react/static/js/main.3b6614ee.chunk.js.map",
     "runtime~main.js": "/nl-trip-advisor-react/static/js/runtime~main.09a7ef84.js",
     "runtime~main.js.map": "/nl-trip-advisor-react/static/js/runtime~main.09a7ef84.js.map",
     "static/js/2.d6a534e5.chunk.js": "/nl-trip-advisor-react/static/js/2.d6a534e5.chunk.js",
     "static/js/2.d6a534e5.chunk.js.map": "/nl-trip-advisor-react/static/js/2.d6a534e5.chunk.js.map",
     "index.html": "/nl-trip-advisor-react/index.html",
-    "precache-manifest.545f6cd6f2a8b121a269fde4a39665b5.js": "/nl-trip-advisor-react/precache-manifest.545f6cd6f2a8b121a269fde4a39665b5.js",
+    "precache-manifest.67c8100aee5a1da0d422d7c644910470.js": "/nl-trip-advisor-react/precache-manifest.67c8100aee5a1da0d422d7c644910470.js",
     "service-worker.js": "/nl-trip-advisor-react/service-worker.js",
-    "static/css/main.f9e4cb2c.chunk.css.map": "/nl-trip-advisor-react/static/css/main.f9e4cb2c.chunk.css.map",
+    "static/css/main.2bd7b428.chunk.css.map": "/nl-trip-advisor-react/static/css/main.2bd7b428.chunk.css.map",
     "static/media/amsterdam-architecture-building-208733.jpg": "/nl-trip-advisor-react/static/media/amsterdam-architecture-building-208733.37d6b092.jpg"
   }
 }

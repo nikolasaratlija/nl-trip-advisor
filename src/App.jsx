@@ -11,6 +11,8 @@ class App extends Component {
         return (
             <div className={"App"}>
 
+                <img className={"back-img-1"} src={require('./assets/images/amsterdam-building.jpg')} alt="a tourist location"/>
+
                 <Header/>
 
                 <Start/>

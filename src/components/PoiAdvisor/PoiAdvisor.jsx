@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import './PoiAdvisor.scss';
-import PoiCard from "./PoiCard/PoiCard";
+import Card from "./Card/Card";
 
 class PoiAdvisor extends Component {
     componentDidMount() {
@@ -60,9 +60,7 @@ class PoiAdvisor extends Component {
             },
         ];
 
-        const items = data.map(value => (
-            <PoiCard {...value}/>
-        ));
+        const items = data.map(value => <Card {...value}/>);
 
         return (
             <div className={"advisor-box PoiAdvisor"}>

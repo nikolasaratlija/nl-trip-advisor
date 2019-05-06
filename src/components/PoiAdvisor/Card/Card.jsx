@@ -1,8 +1,8 @@
 import React from 'react';
-import './PoiCard.scss';
+import './Card.scss';
 
-const PoiCard = props => (
-    <div className={"PoiCard"}>
+const Card = props => (
+    <div className={"Card"}>
         <h4>{props.head}</h4>
         <img src={props.photo} alt="TODO"/>
         <p>{props.description}</p>
@@ -10,4 +10,4 @@ const PoiCard = props => (
     </div>
 );
 
-export default PoiCard;
+export default Card;

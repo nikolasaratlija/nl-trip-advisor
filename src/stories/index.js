@@ -7,7 +7,7 @@ import Start from '../components/Start/Start';
 import Header from "../components/Header/Header";
 import Navigation from "../components/Header/Navigation/Navigation";
 import PoiAdvisor from "../components/PoiAdvisor/PoiAdvisor";
-import PoiCard from "../components/PoiAdvisor/PoiCard/PoiCard";
+import Card from "../components/PoiAdvisor/Card/Card";
 
 storiesOf('Start', module)
     .add('Default', () => <Start/>);
@@ -21,9 +21,9 @@ storiesOf('Navigation', module)
 storiesOf('PoiAdvisor', module)
     .add('Default', () => <PoiAdvisor/>);
 
-storiesOf('PoiCard', module)
+storiesOf('Card', module)
     .add('Default', () => (
-        <PoiCard
+        <Card
             key={0}
             head={"Kinderdijk"}
             description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure."}

@@ -3,7 +3,7 @@ $padding: 2vh;
 .Card {
   background-color: #FFF8F0;
   width: 30vh;
-  height: 40vh;
+  height: 45vh;
   border-radius: 16px;
   padding: $padding;
   color: #151515;
@@ -15,6 +15,10 @@ $padding: 2vh;
     font-size: 2.75vh;
   }
 
+  p {
+    font-size: 1.85vh;
+  }
+
   img {
     width: 100%;
   }
@@ -24,10 +28,10 @@ $padding: 2vh;
     bottom: 0;
     margin-bottom: $padding;
     color: white;
-    font-size: 1.5vh;
+    font-size: 1.7vh;
     font-family: Lato, sans-serif;
-    width: 50%;
-    height: 9%;
+    width: 45%;
+    height: 8%;
     background-color: #EF7B45;
     border-radius: 5px;
 

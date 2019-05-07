@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a08beab2bc301b4035cde9c5429d300d",
+    "revision": "45d0e152905b7ac4e52cdaf7424f0ba4",
     "url": "/nl-trip-advisor-react/index.html"
   },
   {
-    "revision": "5bc59f22b2cf486ecbe7",
-    "url": "/nl-trip-advisor-react/static/css/main.948514be.chunk.css"
+    "revision": "1dcb341cbe9d7a661eb1",
+    "url": "/nl-trip-advisor-react/static/css/main.3b6633e2.chunk.css"
   },
   {
     "revision": "9eee67cf782a38d35aeb",
     "url": "/nl-trip-advisor-react/static/js/2.d6a534e5.chunk.js"
   },
   {
-    "revision": "5bc59f22b2cf486ecbe7",
+    "revision": "1dcb341cbe9d7a661eb1",
     "url": "/nl-trip-advisor-react/static/js/main.e8df7ab0.chunk.js"
   },
   {

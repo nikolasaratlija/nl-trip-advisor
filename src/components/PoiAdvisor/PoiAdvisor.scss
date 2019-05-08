@@ -1,15 +1,11 @@
 .PoiAdvisor {
   background-color: #B22222;
-  display: grid;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-  grid-gap: 2vh;
-  grid-template-columns: auto auto auto auto auto [last-col];
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4vh 5vh;
 
   h3 {
-    grid-column: 1 / last-col;
-    justify-self: start;
-    align-self: start;
+    width: 100%;
+    margin: 0 1vh 1.75vh
   }
 }

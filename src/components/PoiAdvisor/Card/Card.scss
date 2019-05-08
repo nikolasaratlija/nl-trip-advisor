@@ -1,13 +1,15 @@
-$padding: 2vh;
+$card-padding: 2vh;
+$card-margin: 1vh;
 
 .Card {
   background-color: #FFF8F0;
   width: 30vh;
   height: 45vh;
   border-radius: 16px;
-  padding: $padding;
+  padding: $card-padding;
   color: #151515;
   position: relative;
+  margin: 1vh;
 
   h4 {
     font-family: Lato, sans-serif;
@@ -26,11 +28,11 @@ $padding: 2vh;
   a {
     position: absolute;
     bottom: 0;
-    margin-bottom: $padding;
+    margin-bottom: $card-padding;
     color: white;
-    font-size: 1.7vh;
+    font-size: 1.6vh;
     font-family: Lato, sans-serif;
-    width: 45%;
+    width: 50%;
     height: 8%;
     background-color: #EF7B45;
     border-radius: 5px;

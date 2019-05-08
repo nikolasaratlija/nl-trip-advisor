@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/nl-trip-advisor-react/static/css/main.5bb3cbe3.chunk.css",
-    "main.js": "/nl-trip-advisor-react/static/js/main.460ef949.chunk.js",
-    "main.js.map": "/nl-trip-advisor-react/static/js/main.460ef949.chunk.js.map",
-    "runtime~main.js": "/nl-trip-advisor-react/static/js/runtime~main.09a7ef84.js",
-    "runtime~main.js.map": "/nl-trip-advisor-react/static/js/runtime~main.09a7ef84.js.map",
-    "static/js/2.d6a534e5.chunk.js": "/nl-trip-advisor-react/static/js/2.d6a534e5.chunk.js",
-    "static/js/2.d6a534e5.chunk.js.map": "/nl-trip-advisor-react/static/js/2.d6a534e5.chunk.js.map",
-    "index.html": "/nl-trip-advisor-react/index.html",
-    "precache-manifest.92c508ac285e91b86c3b3d8d033443bb.js": "/nl-trip-advisor-react/precache-manifest.92c508ac285e91b86c3b3d8d033443bb.js",
-    "service-worker.js": "/nl-trip-advisor-react/service-worker.js",
-    "static/css/main.5bb3cbe3.chunk.css.map": "/nl-trip-advisor-react/static/css/main.5bb3cbe3.chunk.css.map",
-    "static/media/amsterdam-building.jpg": "/nl-trip-advisor-react/static/media/amsterdam-building.37d6b092.jpg",
-    "static/media/wireframe.jpg": "/nl-trip-advisor-react/static/media/wireframe.39c4ba9e.jpg"
+    "main.css": "/nl-trip-advisor/static/css/main.5bb3cbe3.chunk.css",
+    "main.js": "/nl-trip-advisor/static/js/main.460ef949.chunk.js",
+    "main.js.map": "/nl-trip-advisor/static/js/main.460ef949.chunk.js.map",
+    "runtime~main.js": "/nl-trip-advisor/static/js/runtime~main.b0ed7b9d.js",
+    "runtime~main.js.map": "/nl-trip-advisor/static/js/runtime~main.b0ed7b9d.js.map",
+    "static/js/2.d6a534e5.chunk.js": "/nl-trip-advisor/static/js/2.d6a534e5.chunk.js",
+    "static/js/2.d6a534e5.chunk.js.map": "/nl-trip-advisor/static/js/2.d6a534e5.chunk.js.map",
+    "index.html": "/nl-trip-advisor/index.html",
+    "precache-manifest.e305f186f3f36937dd3a70b9621f3e18.js": "/nl-trip-advisor/precache-manifest.e305f186f3f36937dd3a70b9621f3e18.js",
+    "service-worker.js": "/nl-trip-advisor/service-worker.js",
+    "static/css/main.5bb3cbe3.chunk.css.map": "/nl-trip-advisor/static/css/main.5bb3cbe3.chunk.css.map",
+    "static/media/amsterdam-building.jpg": "/nl-trip-advisor/static/media/amsterdam-building.37d6b092.jpg",
+    "static/media/wireframe.jpg": "/nl-trip-advisor/static/media/wireframe.39c4ba9e.jpg"
   }
 }

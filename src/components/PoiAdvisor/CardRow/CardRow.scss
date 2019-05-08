@@ -1,10 +1,11 @@
 .CardRow {
   overflow: hidden;
 
-  h4 {
-    font-size: 3vh;
+  h3 {
+    font-size: 3.25vh;
     font-family: Nunito, sans-serif;
     margin: 1vh 1vh;
+    border-bottom: 1px solid white;
   }
 
   .card-container {

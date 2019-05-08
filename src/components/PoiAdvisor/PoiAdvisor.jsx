@@ -8,44 +8,6 @@ class PoiAdvisor extends Component {
         const touristLocations = [
             {
                 "key": 0,
-                "category": "museums",
-                "data": [
-                    {
-                        "key": 0,
-                        "name": "Rijksmuseum"
-                    },
-                    {
-                        "key": 1,
-                        "name": "Van Gogh museum"
-                    }
-                ]
-            },
-            {
-                "key": 1,
-                "category": "amusement_parks",
-                "data": [
-                    {
-                        "key": 0,
-                        "name": "Efteling"
-                    }
-                ]
-            },
-            {
-                "key": 2,
-                "category": "outdoors_places",
-                "data": [
-                    {
-                        "key": 0,
-                        "name": "Kinderdijk"
-                    },
-                    {
-                        "key": 1,
-                        "name": "Keukenhof"
-                    }
-                ]
-            },
-            {
-                "key": 3,
                 "category": "buildings",
                 "data": [
                     {
@@ -53,21 +15,58 @@ class PoiAdvisor extends Component {
                         "name": "Euromast"
                     }
                 ]
+            },
+            {
+                "key": 1,
+                "category": "outdoor_places",
+                "data": [
+                    {
+                        "key": 0,
+                        "name": "Kinderdijk",
+                        "photo": "https://lh3.googleusercontent.com/p/AF1QipOE7Gg_cfHklIbuSmxEOqEJvv8xB0xNtnTx_nZr=s1600-w400"
+                    },
+                    {
+                        "key": 1,
+                        "name": "Keukenhof",
+                        "photo": "https://lh3.googleusercontent.com/p/AF1QipNHVuBtFZL__6BusSaVXIXSmlj_mz28j5YhEQqY=s1600-w400",
+                    }
+                ]
+            },
+            {
+                "key": 2,
+                "category": "museums",
+                "data": [
+                    {
+                        "key": 0,
+                        "name": "Rijksmuseum",
+                        "photo": "https://lh3.googleusercontent.com/p/AF1QipM6R5SzyPOjlWGNe_hPHcvoTp_Gf_qllHsLyTbD=s1600-w400",
+                    },
+                    {
+                        "key": 1,
+                        "name": "Van Gogh museum",
+                        "photo": "https://lh3.googleusercontent.com/p/AF1QipNAH8awqbHmcSO9ca4eATT84RPbpVa5UpaFLx4R=s1600-w400"
+                    }
+                ]
+            },
+            {
+                "key": 3,
+                "category": "amusement_parks",
+                "data": [
+                    {
+                        "key": 0,
+                        "name": "Efteling",
+                        "photo": "https://lh3.googleusercontent.com/p/AF1QipM3-WxFLlijFCLC--9AxiNBeOjkZM0MaMX-DLVm=s1600-w400"
+                    }
+                ]
             }
         ];
 
-        const items = touristLocations.map(value =>
-            <CardRow
-                key={value.key}
-                category={value.category}
-                data={value.data}
-            />
-        );
+        const cardRows = touristLocations.map(value => <CardRow {...value}/>);
 
         return (
             <div className={"advisor-box PoiAdvisor"}>
-                <h3>Beautiful locations to visit:</h3>
-                {items}
+                <h2>Beautiful locations to visit:</h2>
+                {cardRows}
             </div>
         );
     }

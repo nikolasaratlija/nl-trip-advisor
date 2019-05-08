@@ -5,6 +5,7 @@ import './App.scss';
 import Header from "./components/Header/Header";
 import Start from "./components/Start/Start";
 import PoiAdvisor from "./components/PoiAdvisor/PoiAdvisor";
+import Footer from "./components/Footer/Footer";
 
 class App extends Component {
     render() {
@@ -18,6 +19,8 @@ class App extends Component {
                 <Start/>
 
                 <PoiAdvisor/>
+
+                <Footer/>
 
             </div>
         );

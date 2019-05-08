@@ -12,7 +12,9 @@ class PoiAdvisor extends Component {
                 "data": [
                     {
                         "key": 0,
-                        "name": "Euromast"
+                        "name": "Euromast",
+                        "description": "Due to lack of care right now, some sample text is going to occupy this.",
+                        "website": "https://euromast.nl/en"
                     }
                 ]
             },
@@ -23,12 +25,16 @@ class PoiAdvisor extends Component {
                     {
                         "key": 0,
                         "name": "Kinderdijk",
-                        "photo": "https://lh3.googleusercontent.com/p/AF1QipOE7Gg_cfHklIbuSmxEOqEJvv8xB0xNtnTx_nZr=s1600-w400"
+                        "photo": "https://lh3.googleusercontent.com/p/AF1QipOE7Gg_cfHklIbuSmxEOqEJvv8xB0xNtnTx_nZr=s1600-w400",
+                        "description": "Due to lack of care right now, some sample text is going to occupy this.",
+                        "website": "https://www.kinderdijk.com/"
                     },
                     {
                         "key": 1,
                         "name": "Keukenhof",
                         "photo": "https://lh3.googleusercontent.com/p/AF1QipNHVuBtFZL__6BusSaVXIXSmlj_mz28j5YhEQqY=s1600-w400",
+                        "description": "Due to lack of care right now, some sample text is going to occupy this.",
+                        "website": "https://keukenhof.nl/en/"
                     }
                 ]
             },
@@ -40,11 +46,15 @@ class PoiAdvisor extends Component {
                         "key": 0,
                         "name": "Rijksmuseum",
                         "photo": "https://lh3.googleusercontent.com/p/AF1QipM6R5SzyPOjlWGNe_hPHcvoTp_Gf_qllHsLyTbD=s1600-w400",
+                        "description": "Due to lack of care right now, some sample text is going to occupy this.",
+                        "website": "https://www.rijksmuseum.nl/en"
                     },
                     {
                         "key": 1,
                         "name": "Van Gogh museum",
-                        "photo": "https://lh3.googleusercontent.com/p/AF1QipNAH8awqbHmcSO9ca4eATT84RPbpVa5UpaFLx4R=s1600-w400"
+                        "photo": "https://lh3.googleusercontent.com/p/AF1QipNAH8awqbHmcSO9ca4eATT84RPbpVa5UpaFLx4R=s1600-w400",
+                        "description": "Due to lack of care right now, some sample text is going to occupy this.",
+                        "website": "https://www.vangoghmuseum.nl/en"
                     }
                 ]
             },
@@ -55,7 +65,9 @@ class PoiAdvisor extends Component {
                     {
                         "key": 0,
                         "name": "Efteling",
-                        "photo": "https://lh3.googleusercontent.com/p/AF1QipM3-WxFLlijFCLC--9AxiNBeOjkZM0MaMX-DLVm=s1600-w400"
+                        "photo": "https://lh3.googleusercontent.com/p/AF1QipM3-WxFLlijFCLC--9AxiNBeOjkZM0MaMX-DLVm=s1600-w400",
+                        "description": "Due to lack of care right now, some sample text is going to occupy this.",
+                        "website": "https://www.efteling.com/en"
                     }
                 ]
             }

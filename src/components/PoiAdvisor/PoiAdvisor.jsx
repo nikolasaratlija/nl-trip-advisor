@@ -1,106 +1,68 @@
 import React, {Component} from 'react';
 
 import './PoiAdvisor.scss';
-import Card from "./Card/Card";
+import CardRow from "./CardRow/CardRow.jsx";
 
 class PoiAdvisor extends Component {
-    componentDidMount() {
-    }
-
     render() {
-        const data = [
-            {
-                key: 0,
-                name: "Kinderdijk",
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure.",
-                photo: "https://lh3.googleusercontent.com/p/AF1QipOE7Gg_cfHklIbuSmxEOqEJvv8xB0xNtnTx_nZr=s1600-w600",
-                website: "https://www.kinderdijk.com/",
-            },
-            {
-                key: 1,
-                name: "Kinderdijk",
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure.",
-                photo: "https://lh3.googleusercontent.com/p/AF1QipOE7Gg_cfHklIbuSmxEOqEJvv8xB0xNtnTx_nZr=s1600-w600",
-                website: "https://www.kinderdijk.com/",
-            },
-            {
-                key: 2,
-                name: "Kinderdijk",
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure.",
-                photo: "https://lh3.googleusercontent.com/p/AF1QipOE7Gg_cfHklIbuSmxEOqEJvv8xB0xNtnTx_nZr=s1600-w600",
-                website: "https://www.kinderdijk.com/",
-            },
-            {
-                key: 3,
-                name: "Kinderdijk",
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure.",
-                photo: "https://lh3.googleusercontent.com/p/AF1QipOE7Gg_cfHklIbuSmxEOqEJvv8xB0xNtnTx_nZr=s1600-w600",
-                website: "https://www.kinderdijk.com/",
-            },
-            {
-                key: 4,
-                name: "Kinderdijk",
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure.",
-                photo: "https://lh3.googleusercontent.com/p/AF1QipOE7Gg_cfHklIbuSmxEOqEJvv8xB0xNtnTx_nZr=s1600-w600",
-                website: "https://www.kinderdijk.com/",
-            },
-            {
-                key: 5,
-                name: "Kinderdijk",
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure.",
-                photo: "https://lh3.googleusercontent.com/p/AF1QipOE7Gg_cfHklIbuSmxEOqEJvv8xB0xNtnTx_nZr=s1600-w600",
-                website: "https://www.kinderdijk.com/",
-            },
-            {
-                key: 6,
-                name: "Kinderdijk",
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure.",
-                photo: "https://lh3.googleusercontent.com/p/AF1QipOE7Gg_cfHklIbuSmxEOqEJvv8xB0xNtnTx_nZr=s1600-w600",
-                website: "https://www.kinderdijk.com/",
-            },
-        ];
         const touristLocations = [
             {
-                "category": "museum",
+                "key": 0,
+                "category": "museums",
                 "data": [
                     {
+                        "key": 0,
                         "name": "Rijksmuseum"
                     },
                     {
+                        "key": 1,
                         "name": "Van Gogh museum"
                     }
                 ]
             },
             {
-                "category": "amusement_park",
+                "key": 1,
+                "category": "amusement_parks",
                 "data": [
                     {
+                        "key": 0,
                         "name": "Efteling"
                     }
                 ]
             },
             {
+                "key": 2,
                 "category": "outdoors_places",
                 "data": [
                     {
+                        "key": 0,
                         "name": "Kinderdijk"
                     },
                     {
+                        "key": 1,
                         "name": "Keukenhof"
                     }
                 ]
             },
             {
+                "key": 3,
                 "category": "buildings",
                 "data": [
                     {
+                        "key": 0,
                         "name": "Euromast"
                     }
                 ]
             }
         ];
 
-        const items = data.map(value => <Card {...value}/>);
+        const items = touristLocations.map(value =>
+            <CardRow
+                key={value.key}
+                category={value.category}
+                data={value.data}
+            />
+        );
 
         return (
             <div className={"advisor-box PoiAdvisor"}>

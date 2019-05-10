@@ -1,6 +1,8 @@
 ## Netherlands-Trip-Advisor
 
-Check it out on: https://nikolasaratlija.github.io/nl-trip-advisor/
+View it out on: 
+    https://nikolasaratlija.github.io/nl-trip-advisor/ (production build) 
+    or https://nl-trip-advisor.herokuapp.com/ (development build)
 
 Originally I made this project solely for a school assignment but I decided to keep working on this as an attempt to teach myself about the React.js framework and to be an addition to my portfolio (which I don't officially have yet).
 

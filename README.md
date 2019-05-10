@@ -1,8 +1,10 @@
 ## Netherlands-Trip-Advisor
 
-View it out on: 
-    https://nikolasaratlija.github.io/nl-trip-advisor/ (production build) 
-    or https://nl-trip-advisor.herokuapp.com/ (development build)
+### Check it out on:
+* https://nikolasaratlija.github.io/nl-trip-advisor/ (production build)
+* https://nl-trip-advisor.herokuapp.com/ (development build)
+
+### About
 
 Originally I made this project solely for a school assignment but I decided to keep working on this as an attempt to teach myself about the React.js framework and to be an addition to my portfolio (which I don't officially have yet).
 
@@ -12,7 +14,7 @@ As far as the actual 'product' I'm creating here: its purpose is to attract tour
 
 If you feel like contributing or giving me tips, feel free to; all help is appreciated.
 
-## Technologies used
+### Technologies used
 
 * SCSS
 * React.js ([create-react-app](https://github.com/facebook/create-react-app))

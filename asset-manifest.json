@@ -1,16 +1,12 @@
 {
   "files": {
-    "main.css": "/nl-trip-advisor/static/css/main.617c241a.chunk.css",
+    "main.css": "/nl-trip-advisor/static/css/main.bd317383.chunk.css",
     "main.js": "/nl-trip-advisor/static/js/main.80e5c179.chunk.js",
-    "main.js.map": "/nl-trip-advisor/static/js/main.80e5c179.chunk.js.map",
     "runtime~main.js": "/nl-trip-advisor/static/js/runtime~main.b0ed7b9d.js",
-    "runtime~main.js.map": "/nl-trip-advisor/static/js/runtime~main.b0ed7b9d.js.map",
     "static/js/2.d6a534e5.chunk.js": "/nl-trip-advisor/static/js/2.d6a534e5.chunk.js",
-    "static/js/2.d6a534e5.chunk.js.map": "/nl-trip-advisor/static/js/2.d6a534e5.chunk.js.map",
     "index.html": "/nl-trip-advisor/index.html",
-    "precache-manifest.5fcb1f68a4eabfde203bccfe0a78d4a1.js": "/nl-trip-advisor/precache-manifest.5fcb1f68a4eabfde203bccfe0a78d4a1.js",
+    "precache-manifest.82c170b6388ba1d4c872c89ad7d974ee.js": "/nl-trip-advisor/precache-manifest.82c170b6388ba1d4c872c89ad7d974ee.js",
     "service-worker.js": "/nl-trip-advisor/service-worker.js",
-    "static/css/main.617c241a.chunk.css.map": "/nl-trip-advisor/static/css/main.617c241a.chunk.css.map",
     "static/media/amsterdam-building.jpg": "/nl-trip-advisor/static/media/amsterdam-building.37d6b092.jpg",
     "static/media/wireframe.jpg": "/nl-trip-advisor/static/media/wireframe.39c4ba9e.jpg"
   }
